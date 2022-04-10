@@ -8,11 +8,12 @@
     width: 1920,
     height: 1080,
     channel: "sosonyang",
-    mute: false,
-    allowfullscreen="allowfullscreen", 
+    muted: false,
+    autoplay: true,
     parent: ["github.io","Moonbear4071.github.io"]
   };
   var player = new Twitch.Player("test", options);
+   player.setVolume(0.5);
 </script>
 
   </body>
